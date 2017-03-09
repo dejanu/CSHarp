@@ -11,7 +11,7 @@ namespace array
         static void Main(string[] args)
         {
 
-            int[] arr = new int[4] {9,1,2,1};
+            int[] arr = new int[4] {9,1,2,1,5,4};
            
             int[,] mat = new int[2, 10]; //2 row and 5 columns
 
