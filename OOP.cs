@@ -52,7 +52,7 @@ namespace Rextester
             
     
     }
-        public void MakeSound(){
+        public virtual void MakeSound(){
               Console.WriteLine(name);  
               Console.WriteLine(sound);
         }
@@ -63,4 +63,13 @@ namespace Rextester
 
     
     }//class
+    
+    
+    public class Mamifer:Animal {
+        
+        public override void MakeSound(int numberSounds=0){
+            Console.WriteLine("mammel");
+            numberSounds ++;
+            
+        }
 }
